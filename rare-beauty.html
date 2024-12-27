@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rare Beauty</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f5f5;
+        }
+
+        header {
+            background: linear-gradient(45deg, #ff8fa3, #ffced4);
+            padding: 1.5em;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            background-color: #ffd7dd;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            color: #ff5964;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3em 1em;
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        .hero button {
+            padding: 0.7em 2em;
+            font-size: 1.1em;
+            border: none;
+            background: #ff5964;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background: #ff3947;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2em;
+            padding: 2em;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+        }
+
+        .product h3 {
+            padding: 1em 0 0.5em;
+            font-size: 1.3em;
+            color: #ff5964;
+        }
+
+        .product p {
+            padding: 0 1em 1em;
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: #ffd7dd;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+
+        footer a {
+            color: #ff5964;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rare Beauty</h1>
+        <p>Empowering beauty for every face.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Your Glow, Your Power</h2>
+        <button>Shop Now</button>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="lipstick.jpg" alt="Lipstick">
+            <h3>Perfect Lipstick</h3>
+            <p>Discover bold, vibrant colors that last all day.</p>
+        </div>
+        <div class="product">
+            <img src="foundation.jpg" alt="Foundation">
+            <h3>Flawless Foundation</h3>
+            <p>Lightweight and breathable for a natural finish.</p>
+        </div>
+        <div class="product">
+            <img src="mascara.jpg" alt="Mascara">
+            <h3>Lengthening Mascara</h3>
+            <p>Long lashes that steal the show.</p>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Rare Beauty. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
